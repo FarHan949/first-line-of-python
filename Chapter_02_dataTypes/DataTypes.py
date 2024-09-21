@@ -3,7 +3,7 @@
 a = 1  # a is an integer type
 
 
-b = 2.55   # b is a floating point  number type
+b = 2.55   # b is a floating point number type
 
 
 c = "Farhan"  # c  is a string type
