@@ -1,7 +1,6 @@
 name = ' farhan uddin '
 
 
-
 print(name.upper())
 print(name.lower())
 print(name.capitalize())
@@ -29,3 +28,4 @@ print(name.isdigit())
 print(name.islower())
 print(name.isupper())
 print(name.isspace())
+
