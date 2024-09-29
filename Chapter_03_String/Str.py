@@ -1,5 +1,5 @@
 x = '55'
-y = "Farhan"
+y = "farhan"
 z = '''Kabir
  Zulfika'''
 
@@ -9,3 +9,4 @@ We got the some of new thing
 
 
 print(len('farhan'))
+print(y.capitalize())
