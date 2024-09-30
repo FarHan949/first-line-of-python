@@ -12,4 +12,4 @@ print(name[0:5])   # start from index 0 all way till 5 excluding 5)
 number = '0123456789dfeas'
 
 alpha =  'abcdefghijklmnopqrwtsxyz'
-print(alpha[1:-1:7]) #bipy
+print(alpha[1:-1:5]) #bipy
