@@ -7,3 +7,16 @@ personInfo = {
 }
 
 print(personInfo["day"])
+
+
+#Adding  a new key-value pair to the dictionary
+personInfo["email"] = "person@gmial.com"
+personInfo["age"] = 85
+personInfo["day"] = [10,100,1000]
+personInfo["day"][0] = 1
+
+#removes the key-value pair from the dictionary
+del  personInfo["day"]
+name = personInfo.pop("job")
+
+# print(personInfo)
