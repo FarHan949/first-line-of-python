@@ -6,6 +6,10 @@ personInfo = {
     "day" : ["saturday", "5 October", 2024]
 }
 
+personEmptyInfo = {}  #  empty dictionary
+
+
+print(personEmptyInfo)
 print(personInfo["day"])
 
 

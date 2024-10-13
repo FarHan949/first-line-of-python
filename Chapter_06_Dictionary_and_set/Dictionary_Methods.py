@@ -2,7 +2,8 @@ a = {
     "key" :  "value",
     "farhan" : "code",
     "mark": 100,
-    "list": [1,2,2]
+    "list": [1,2,2],
+    # "Location" : "Syllet"
 }
 
 
@@ -32,5 +33,20 @@ setdefault_a = a.setdefault("Location", "Dhaka")   #(11) insert key with a given
 
 print(a)
 # print(get_a)
-print(fromkeys_a)
-# print(setdefault_a)
+# print(fromkeys_a)
+print(setdefault_a)
+
+
+
+
+
+
+person = {
+    "name": "John",
+    # "age": 30,
+}
+
+
+# print(person.get("age")) # print None
+
+# print(person["age"])   # print KeyError: 'age'
