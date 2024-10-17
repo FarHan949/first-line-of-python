@@ -2,7 +2,7 @@ a = {
     "key" :  "value",
     "farhan" : "code",
     "mark": 100,
-    "list": [1,2,2],
+    # "list": [99],
     # "Location" : "Syllet"
 }
 
@@ -19,7 +19,7 @@ value_a = a.values()   #(05) get a view object that displays a list of all value
 
 keys_a = a.keys()     #(06)  get a view object that displays a list of all keys in the dictionary
 
-pop_a = a.pop("list")  #(07) remove the item with the specified key and return the corresponding value.
+pop_a = a.pop("list",[5,6])  #(07) remove the item with the specified key and return the corresponding value.
 
 popItem_a = a.popitem()   #(08) remove and return an arbitrary element from the dictionary.
 
@@ -34,7 +34,7 @@ setdefault_a = a.setdefault("Location", "Dhaka")   #(11) insert key with a given
 print(a)
 # print(get_a)
 # print(fromkeys_a)
-print(setdefault_a)
+print(pop_a)
 
 
 
