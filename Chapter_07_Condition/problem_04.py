@@ -58,7 +58,6 @@ else:
 # Print "Medium" if the length of s is between 5 and 10.
 # Print "Long" if the length of s is more than 10.
 
-
 s = "Python"
 
 if len(s) < 5 :
@@ -67,4 +66,39 @@ elif  len(s) < 11 :
     print("Medium")
 else:
     print("Long")
+
+
+#(04) write a program to find out whether a student has passed or failed it required total of 40% at least 33% in each subject.
+    #Assume 3 subjects and take a mark as an input the user.
+
+marks1 = int(input("Enter the marks of student1:"))
+marks2 = int(input("Enter the marks of student2:"))
+marks3 = int(input("Enter the marks of student3:"))
+
+
+total_percentage = (100 * (marks1 + marks2 + marks3)) / 3
+
+if  (total_percentage >= 40 and  marks1 >= 33 and marks2 >= 33 and marks3 >= 33):
+    print("You are the passed", total_percentage)
+
+else:
+    print("You are failed", total_percentage)
+
+
+
+#(05) spam comment defined as a text containing following keyword:
+
+p1 = "make a lot of money"
+p2 = "buy this"
+p3 = "you will be rich"
+p4 = "subscribe this"
+
+
+message = input("Enter your comment: ").lower()
+
+if ((p1 in message) or (p2 in message) or (p3 in message) or (p4 in message)):
+
+   print("This comment is a spam")
+else:
+    print("This comment is not a spam")
 
